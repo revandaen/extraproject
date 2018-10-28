@@ -212,21 +212,23 @@ const Excute = async function(User, TargetUsername, Sleep, mysyntx){
 }
 
 console.log(chalk`
-  {bold.cyan
-  —————————————————— [INFORMATION] ————————————————————
+  {bold.yellow
+  ——————————— [INFORMATION SERVICE] —————————————
 
-  [?] {bold.green FFTauto | Using Account/User Target!}
+  [?] {bold.blue UFNFB | Unfollow Not FollowBack!}
 
-  ——————————————————  [THANKS TO]  ————————————————————
-  [✓] CODE BY CYBER SCREAMER CCOCOT (ccocot@bc0de.net)
-  [✓] FIXING & TESTING BY SYNTAX (@officialputu_id)
-  [✓] CCOCOT.CO | BC0DE.NET | NAONLAH.NET | WingkoColi
-  [✓] SGB TEAM REBORN | Zerobyte.id | ccocot@bc0de.net 
-  —————————————————————————————————————————————————————
+  ———————————————  [THANKS TO]  —————————————————
+  * Code by Xiaomobine
+  * Fixing and Testing by Younger_Roy
+  * INFORWAR TEAM
+  * KIGI GROUP & DEVELOPMENT | KJBWB
+  * Indra Septyan 
+  ———————————————————————————————————————————————
   What's new?
   1. Input Target/delay Manual (ITTYW)
-  —————————————————————————————————————————————————————}
+  ———————————————————————————————————————————————}
       `);
+
 
 inquirer.prompt(User)
 .then(answers => {
