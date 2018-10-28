@@ -171,7 +171,7 @@ console.log(chalk`
  {bold.yellow
   ——————————— [INFORMATION SERVICE] —————————————
 
-  [?] {bold.blue UFNFB | Unfollow Not FollowBack!}
+  [?] {bold.blue UFNFB | Bom Komen Post Target }
 
   ———————————————  [THANKS TO]  —————————————————
   * Code by Xiaomobine
