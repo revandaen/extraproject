@@ -145,7 +145,7 @@ const Excute = async function(User,sleep,mysyntx){
 }
 
 console.log(chalk`
-  {bold.gold
+  {bold.red
   ——————————————— [INFORMATION SERVICE] —————————————————
 
   [?] {bold.red UFNFB | Unfollow Not FollowBack!}
