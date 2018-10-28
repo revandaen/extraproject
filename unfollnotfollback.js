@@ -145,10 +145,10 @@ const Excute = async function(User,sleep,mysyntx){
 }
 
 console.log(chalk`
-  {bold.red
-  ——————————————— [INFORMATION SERVICE] —————————————————
+  {bold.yellow
+  ——————————— [INFORMATION SERVICE] —————————————
 
-  [?] {bold.red UFNFB | Unfollow Not FollowBack!}
+  [?] {bold.blue UFNFB | Unfollow Not FollowBack!}
 
   ———————————————  [THANKS TO]  —————————————————
   * Code by Xiaomobine
