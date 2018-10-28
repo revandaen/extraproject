@@ -215,7 +215,7 @@ console.log(chalk`
   {bold.yellow
   ——————————— [INFORMATION SERVICE] —————————————
 
-  [?] {bold.blue UFNFB | Unfollow Not FollowBack!}
+  [?] {bold.blue UFNFB | Follow Follower Target Auto}
 
   ———————————————  [THANKS TO]  —————————————————
   * Code by Xiaomobine
