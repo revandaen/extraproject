@@ -107,7 +107,7 @@ console.log(chalk`
   {bold.yellow
   ——————————— [INFORMATION SERVICE] —————————————
 
-  [?] {bold.blue UFNFB | Unfollow Not FollowBack!}
+  [?] {bold.blue UFNFB | Unfollow All Following!}
 
   ———————————————  [THANKS TO]  —————————————————
   * Code by Xiaomobine
