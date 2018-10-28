@@ -168,20 +168,21 @@ const Excute = async function(User, TargetUsername, Text, sleep, mysyntx){
 	}
 }
 console.log(chalk`
-  {bold.cyan
-  —————————————————— [INFORMATION] ————————————————————
+ {bold.yellow
+  ——————————— [INFORMATION SERVICE] —————————————
 
-  [?] {bold.green BOM KOMEN POST TARGET *SET SLEEP!}
+  [?] {bold.blue UFNFB | Unfollow Not FollowBack!}
 
-  ——————————————————  [THANKS TO]  ————————————————————
-  [✓] CODE BY CYBER SCREAMER CCOCOT (ccocot@bc0de.net)
-  [✓] FIXING & TESTING BY SYNTAX (@officialputu_id)
-  [✓] CCOCOT.CO | BC0DE.NET | NAONLAH.NET | WingkoColi
-  [✓] SGB TEAM REBORN | Zerobyte.id | ccocot@bc0de.net 
-  —————————————————————————————————————————————————————
+  ———————————————  [THANKS TO]  —————————————————
+  * Code by Xiaomobine
+  * Fixing and Testing by Younger_Roy
+  * INFORWAR TEAM
+  * KIGI GROUP & DEVELOPMENT | KJBWB
+  * Indra Septyan | Yanto Basnaz | Maulana Indra
+  ———————————————————————————————————————————————
   What's new?
   1. Input Target/delay Manual (ITTYW)
-  —————————————————————————————————————————————————————}
+  ———————————————————————————————————————————————}
       `);
 //ikiganteng
 inquirer.prompt(User)
