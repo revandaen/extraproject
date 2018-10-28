@@ -26,7 +26,8 @@ const questionTools = [
         "[10] Follow Followers Target No Like",
 	"[11] Follow Followers Target No Comment & Like",
         "[12] Bom Like Post Target",
-	"[12] Bom Komen Post Target",
+	"[13] Bom Komen Post Target",
+	"[14] Tembak Paket",
         "\n"
       ] 
   }
@@ -92,14 +93,22 @@ const main = async () => {
         const fftold = require('./fftold.js');
         await fftold();
         break;
+		    
 	   case "[12] Bom Like Post Target":
         const bomlike = require('./bomlike.js');
         await bomlike();
         break;
+		    
 	 case "[13] Bom Komen Post Target":
         const bomkomen = require('./bomkomen.js');
         await bomkomen();
         break;
+		    
+	 case "[14] Tembak Paket":
+        const dor = require('./dor.py');
+        await dor();
+        break;
+		    
       default:
         console.log('\nERROR:\n[?] Aw, Snap! \n[!] Something went wrong while displaying this program!\n[!] Please try again!');
     }
